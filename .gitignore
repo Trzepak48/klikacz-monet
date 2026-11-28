@@ -1,0 +1,18 @@
+# Buildy i artefakty PyInstallera
+build/
+dist/
+*.spec
+
+# Zasoby lokalne / narzędziowe
+__pycache__/
+*.pyc
+.freebuff/
+.cloud-attachments/
+
+# Zapis postępu gracza — nie idzie do repo (zawiera token sesji konta)
+aurumfall_save.json
+aurumfall_save.backup-*.json
+aurumfall_progress.json
+klikacz_save.json
+klikacz_save.old.json
+*.backup-*.json
